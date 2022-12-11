@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "945935085932",
+    "project_id": "diubus-c700f",
+    "storage_bucket": "diubus-c700f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945935085932:android:a37c0a553b175cdd4f4349",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945935085932-th19s5e725ibc0bab5m4qiuk4libtfnh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.login",
+            "certificate_hash": "4c9db44be1b9a86949b421678581d6a9507b124c"
+          }
+        },
+        {
+          "client_id": "945935085932-3rbpmlsr3rmhgf8cf8f0p313oqtuls39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6uBT5ksQ0ury_t3rp-zTfPIqB4808V2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945935085932-3rbpmlsr3rmhgf8cf8f0p313oqtuls39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

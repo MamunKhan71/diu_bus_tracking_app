@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bus_image_3"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+
+        android:text="DIU BUS"
+
+        android:textColor="#F6F1F1"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/bookticket"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/curved_view2"
+        android:fontFamily="@font/calibri"
+        android:text="Book a Ticket"
+
+        android:textColor="@color/white"
+
+
+        ></Button>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/curved_view2"
+        android:fontFamily="@font/calibri"
+        android:text="Cancle a Ticket"
+        android:textColor="@color/white"></Button>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/curved_view2"
+        android:fontFamily="@font/calibri"
+        android:text="complain"
+
+        android:textColor="@color/white"></Button>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/curved_view2"
+        android:fontFamily="@font/calibri"
+        android:text="Check status"
+        android:textColor="@color/white"></Button>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/curved_view2"
+        android:fontFamily="@font/calibri"
+        android:text="Review"
+
+        android:textColor="@color/white"></Button>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/curved_view2"
+        android:fontFamily="@font/calibri"
+        android:text="Generate report"
+        android:textColor="@color/white"></Button>
+</LinearLayout>

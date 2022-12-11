@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bus_image_3"
+    tools:context=".Newuser">
+
+    <TextView
+        android:id="@+id/textViewA"
+        android:text="Regestration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="40dp"
+        android:fontFamily="@font/calibri"
+        android:textColor="@color/white"
+        android:backgroundTint="#6A39C1" />
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/textViewA"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="179dp"
+        android:layout_marginRight="179dp"
+        android:src="@drawable/pngwing" />
+
+    <EditText
+        android:id="@+id/user_name"
+        android:background="@drawable/curved_view2"
+        android:textSize="20dp"
+        android:layout_below="@id/profile_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:hint="Enter name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_width="350dp"
+        android:layout_height="45dp"/>
+
+    <EditText
+        android:id="@+id/lage"
+        android:background="@drawable/curved_view2"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/user_name"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        android:hint="Enter DIU Student ID"
+        android:textColorHint="@color/white"
+        android:layout_width="350dp"
+        android:layout_height="45dp"/>
+
+    <EditText
+        android:id="@+id/lemail"
+        android:background="@drawable/curved_view2"
+        android:textSize="20dp"
+        android:layout_below="@id/lage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        android:hint="Enter email"
+        android:textColorHint="@color/white"
+        android:inputType="textEmailAddress"
+        android:layout_width="350dp"
+        android:layout_height="45dp"/>
+
+    <EditText
+        android:id="@+id/lpassword"
+        android:background="@drawable/curved_view2"
+        android:textSize="20dp"
+        android:layout_below="@id/lemail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:hint="Enter password"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
+        android:layout_width="350dp"
+        android:layout_height="45dp"/>
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_below="@id/lpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/curved_view2"
+        android:text="Sign Up"
+        android:layout_width="100dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_below="@id/signup"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/curved_view2"
+        android:text="Log in"
+        android:layout_width="100dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

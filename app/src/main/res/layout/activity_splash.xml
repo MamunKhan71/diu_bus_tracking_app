@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bus_image_3"
+    tools:context=".splash">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="100dp"
+
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="190dp"
+        android:text="Diu Bus Service"
+        android:fontFamily="@font/calibri"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/appName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/calibri"
+        android:textColor="@color/white"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="160dp"
+        android:text="Powered by team Tesla"
+        android:layout_below="@id/appName"
+        android:textSize="20sp"
+         />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_below="@+id/appName"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/loading"
+        android:layout_marginLeft="110dp"
+        android:layout_gravity="center"/>
+
+</RelativeLayout>
